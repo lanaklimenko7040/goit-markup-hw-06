@@ -731,12 +731,8 @@ fill: var(--hover-color);
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: var(--secondary-text-color);
-    
-   
-    
- }
-
- .placeholder-text{
+}
+.placeholder-text{
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -753,11 +749,10 @@ fill: var(--hover-color);
     outline: transparent;
  }
 
- /* .placeholder-text:focus
- .placeholder-text:hover
- {
-    border-color: var(--hover-color);
- } */
+ .placeholder-text:focus
+ 
+ {border-color: var(--hover-color);
+ }
  .check-text{
     display: flex;
     align-items: center;
@@ -782,7 +777,6 @@ fill: var(--hover-color);
     border-radius: 2px;
     background-color: #FFFFFF;
     border: 0.2px solid #000000;
-    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 7px;
 }
@@ -841,37 +835,7 @@ fill: var(--hover-color);
  .modal-btn:focus {
      background-color: #188CE8;
  }
-
-
-
-
-     
-     
-     
-     
-     
-     
-     
-    
-     
-    
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-     /*-----------------PORTFOLIO---------*/
+ /*-----------------PORTFOLIO---------*/
     
   .button-list{
     display: flex;
