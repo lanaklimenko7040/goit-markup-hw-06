@@ -48,6 +48,21 @@ ul, ol {
         max-width: 100%;
         height: auto;
     }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+   
     
 
  
@@ -119,6 +134,8 @@ align-items: center;
 }  
 .current{
     position: relative;
+    color: var(--hover-color);
+    
 }
 .current::after{
     position: absolute;
@@ -134,10 +151,7 @@ align-items: center;
 }
 
 
-.current:hover,
-.current:active{
-   color: var(--hover-color);
-}
+
 .header-contacts{
     display: flex;
     margin-left: auto;
@@ -824,11 +838,16 @@ margin-left: 10px;
  .placeholder-text:focus
  {border-color: var(--hover-color);
  }
+
+
+ .checkbox{
+    margin-bottom: 30px;
+ }
  .check-text{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
