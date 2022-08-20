@@ -801,9 +801,10 @@ margin-left: 10px;
     margin-bottom:10px;
    }
 
-   .modal-field:not(:last-child) {
-    margin-bottom: 10px;
-}
+   .modal-field:nth-child(4n) {
+       margin-bottom: 20px;
+   }
+
 
    .modal-label{
     width: 100%;
